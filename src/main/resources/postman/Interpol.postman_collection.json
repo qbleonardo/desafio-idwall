@@ -1,0 +1,35 @@
+{
+	"info": {
+		"_postman_id": "447bc6b2-94e6-4dc9-af01-930f98b789ac",
+		"name": "Interpol",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14124815"
+	},
+	"item": [
+		{
+			"name": "Busca por nome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/interpol/busca-nome?nome=NOEL ANTONIO",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"interpol",
+						"busca-nome"
+					],
+					"query": [
+						{
+							"key": "nome",
+							"value": "NOEL ANTONIO"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
